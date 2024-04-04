@@ -24,8 +24,8 @@ window.addEventListener('load', async function (event) {
 
 
    const clientInfo = {
-        "clientId": "82756821-825b-4545-ab79-402242e2defc",
-        "clientAlias":"mitadt"
+        "clientId": "",
+        "clientAlias":""
     }
     const loadChatBotScript = () => {
         var script = document.createElement('script');
