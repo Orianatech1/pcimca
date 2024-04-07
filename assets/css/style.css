@@ -34,7 +34,7 @@
 
 .header_background {
 
-    background-image: linear-gradient(180deg, #3c1164 0%, #761b89 50%);
+    background-image: linear-gradient(180deg, #3c1164 0%, #790149 50%);
 
 }
 
@@ -186,7 +186,7 @@ a:hover {
 
 .inner_header_mainbox .banner_section {
 
-    background-image: url(../images/university_img.png);
+    background-image: url(../images/LOGO3.png);
 
     background-color: #e87f37;
 
@@ -1150,7 +1150,7 @@ a:hover {
 
     height: auto;
 
-    padding: 20px 40px 20px 40px;
+    padding: 10px 20px 10px 20px;
 
     transition-duration: 0.3s;
 
@@ -1160,7 +1160,7 @@ a:hover {
 
 .dropdown_list:hover {
 
-    background-color: #4a0875;
+    background-color: #790149;
 
 }
 
@@ -1256,7 +1256,7 @@ a:hover {
 
     width: 100%;
 
-    padding: 10px 20px;
+    padding: 5px 10px;
 
 }
 
@@ -1464,7 +1464,7 @@ a:hover {
 
 .white_list:hover {
 
-    background-image: linear-gradient(220deg, #931abf 0%, #cf0c6a 90%);
+    background-image: linear-gradient(220deg, #931abf 0%, #790149 90%);
 
     padding: 50px 0px 40px 0px;
 
@@ -2580,7 +2580,7 @@ a:hover {
 
 .dropdown_list:hover {
 
-    background-color: #4a0875;
+    background-color: #790149;
 
 }
 
@@ -3400,7 +3400,7 @@ a:hover {
 
 .whylist_flip_back {
 
-    background-color: #dd7228;
+    background-color: #ffcc01;
 
     color: white;
 
@@ -3518,9 +3518,9 @@ a:hover {
 
 .program_offered_mainbox {
 
-    background-color: #590d9b;
+    background-color: #790149;
 
-    background-image: url(../images/program__bg.png);
+    background-image: url(../images/);
 
     background-repeat: no-repeat;
 
@@ -3572,7 +3572,7 @@ a:hover {
 
 .programs_over_bg {
 
-    background-image: linear-gradient(210deg, #ff9100 0%, #bc2c64 70%);
+    background-image: linear-gradient(210deg,  #790149 0%, #ffcc01 70%);
 
     position: absolute;
 
@@ -4786,7 +4786,9 @@ a:hover {
 
 /* -------ENQUIRE-SECTION-START----------- */
 
-
+.Logo img {
+    max-height: 150px;
+}
 
 .enquire_purple_box {
 
@@ -4798,7 +4800,7 @@ a:hover {
 
     background-size: contain;
 
-    background-color: #9419bc;
+    background-color: #790149;
 
     border-radius: 20px;
 
@@ -4816,7 +4818,7 @@ a:hover {
 
     background-color: #fff;
 
-    padding: 40px 50px;
+    padding: 10px 20px;
 
     box-shadow: 0 20px 40px #f09cef;
 
@@ -5014,7 +5016,7 @@ select option {
 
 .footer_section_box {
 
-    background-image: linear-gradient(200deg, #3c1164 0%, #6d1a83 100%);
+    background-image: linear-gradient(200deg, #3c1164 0%, #790149 100%);
 
     padding: 70px 0;
 
@@ -6120,7 +6122,7 @@ select option {
 
     float: left;
 
-    background-color: #61177b;
+    background-color: #790149;
 
     color: #fff;
 
@@ -6178,7 +6180,7 @@ select option {
 
 .vertical_tab_mainbox .tab_box {
 
-    background-image: linear-gradient(180deg, #3d1165 0%, #741b88 100%);
+    background-image: linear-gradient(180deg, #3d1165 0%, #790149 100%);
 
     border-bottom: 0;
 
@@ -6317,7 +6319,7 @@ select option {
 
 .vertical_left_menubox ul .current {
 
-    background-image: linear-gradient(200deg, #9818b7 0%, #c31580 100%);
+    background-image: linear-gradient(200deg, #790149 0%, #c31580 100%);
 
     color: #fff;
 
@@ -7405,7 +7407,7 @@ select option {
 
     position: absolute;
 
-    background-color: rgba(61, 1, 111, 0.8);
+    background-color: #790149;
 
     left: 0;
 
