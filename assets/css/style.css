@@ -189,6 +189,7 @@ a:hover {
     background-image: url(../images/LOGO3.png);
 
     background-color: #e87f37;
+    
 
 }
 
@@ -1776,7 +1777,7 @@ a:hover {
 
     max-width: 100%;
 
-    min-width: 230px;
+    min-width: 250px;
 
 }
 
@@ -4787,7 +4788,7 @@ a:hover {
 /* -------ENQUIRE-SECTION-START----------- */
 
 .Logo img {
-    max-height: 150px;
+    max-height: 200px;
 }
 
 .enquire_purple_box {
@@ -4801,6 +4802,7 @@ a:hover {
     background-size: contain;
 
     background-color: #790149;
+  
 
     border-radius: 20px;
 
@@ -5388,7 +5390,7 @@ select option {
 
     width: 100%;
 
-    background-color: #830076;
+    background-color: #790149;
 
     margin: 0 0 10px 0;
 
