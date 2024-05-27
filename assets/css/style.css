@@ -34,7 +34,7 @@
 
 .header_background {
 
-    background-image: linear-gradient(180deg, #3c1164 0%, #790149 50%);
+    background-image: linear-gradient(180deg, #790149 0%, #790149 50%);
 
 }
 
@@ -5016,7 +5016,7 @@ select option {
 
 .footer_section_box {
 
-    background-image: linear-gradient(200deg, #3c1164 0%, #790149 100%);
+    background-image: linear-gradient(200deg, #790149 0%, #790149 100%);
 
     padding: 70px 0;
 
@@ -6122,7 +6122,7 @@ select option {
 
     float: left;
 
-    background-color: #790149;
+    background-color: #ffcc01;
 
     color: #fff;
 
