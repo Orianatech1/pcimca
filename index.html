@@ -290,86 +290,224 @@
     <!-- header end -->
 
      
-        <div class="width100 scrolling_bar">
-            <div class="container">
-                <div class="right_imgbox" style="display: inline-block; align-items:right;">
-                    <div class="imgbox" ></div>
+    <div class="width100">
+        <style>
+            .bannerForm .row {
+    background:  #ffcc01;
+    padding: 10px 10px;
+    border-radius: 20px;
+    }
+    
+    .bannerForm h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    }
+    
+    .bannerForm {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+    }
+    
+    .bannerForm input[type="text"] {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    }
+    
+    .bannerForm input[type="submit"] {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    background: #d2973f;
+    color: #fff;
+    border-radius: 3px;
+    }
+    
+    .bannerForm select {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    height: 20px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    }
+    
+    .title-effect .bar {
+    display: none;
+    }
+    
+    .bannerForm input[type="tel"] {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    }
+    
+    .bannerForm input[type="email"] {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    }
+    
+    .bannerFormCapcha {
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    }
+    
+    .bannerFormCapcha span {
+    line-height: 42px;
+    }
+    .plus-captcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .bannerFormCapcha input[type="text"] {
+    width: 100%;
+    padding: 2px;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 2px;
+    float: right;
+    border-radius: 3px;
+    }
+    #particles-js {
+    width: 100%;
+    display: block;
+    z-index: 0;
+    /* min-height: 100%;
+    height: 650px; */
+    position: relative;
+    }
+    #particles-js.fixed {
+    position: fixed;
+    top: 0;
+    }
+    
+    .particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    }
+    #particles-js .carousel-item img {
+    height: 90vh;
+    }
+    
+    #particles-js .carousel-caption {
+    top: 30%;
+    width: 50%;
+    left: 5%;
+    text-align: left;
+    }
+    
+    #particles-js .carousel-caption h2 {
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    }
+    .instant .modal-dialog {
+    max-width: 800px;
+    }
+        </style>
+        <section id="particles-js">
+            <div class="owl-carousel_homebanner" style="max-width: 72%;">
+            <div class="item" >
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box"
+                            style="background-image: url(assets/images/slider/1.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Embark on the  </div>
+                                <div class="banner_text2">Journey to Excellence Today...</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row"></div>
             </div>
-        </div>
-        <div class="width100">
-            <div class="owl-carousel_homebanner">
-                <div class="item">
-                    <div class="container">
-                        <div class="banner_section width100">
-                            <div class="width100 banner_img_box"
-                                style="background-image: url(assets/images/slider/digital\ classromm.JPG);">
-                                <div class="banner_leftbox" data-aos="fade-right">
-                                    <div class="banner_text1">Embark on the  </div>
-                                    <div class="banner_text2">Journey to Excellence Today...</div>
-                                    <div class="banner_link width100">
-                                        <a target="_blank" href="">View More</a>
-                                    </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box"
+                            style="background-image: url(assets/images/slider/Cafeteria.jpg);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Shaping Tomorrow's World </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
                                 </div>
                             </div>
                         </div>
+    
                     </div>
                 </div>
-                <div class="item">
-                    <div class="container">
-                        <div class="banner_section width100">
-                            <div class="width100 banner_img_box"
-                                style="background-image: url(assets/images/slider/Cafeteria.jpg);">
-                                <div class="banner_leftbox" data-aos="fade-right">
-                                    <div class="banner_text1">Shaping Tomorrow's World </div>
-                                    <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                    <div class="banner_link width100">
-                                        <a target="_blank" href="">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <div class="banner_section width100">
-                            <div class="width100 banner_img_box"
-                                style="background-image: url(assets/images/slider/Infra\ \(1\).JPG);">
-                                <div class="banner_leftbox" data-aos="fade-right">
-                                    <div class="banner_text1">Building Careers. </div>
-                                    <div class="banner_text2">Transforming Lives.</div>
-                                    <div class="banner_link width100">
-                                        <a target="_blank" href="">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <div class="banner_section width100">
-                            <div class="width100 banner_img_box"
-                                style="background-image: url(assets/images/slider/Infra\ \(2\).JPG);">
-                                <div class="banner_leftbox" data-aos="fade-right">
-                                    <div class="banner_text1">asdf adkjf  </div>
-                                    <div class="banner_text2">adjfk kajdf</div>
-                                    <div class="banner_link width100">
-                                        <a target="_blank" href="">View More</a>
-                                    </div>
-                                </div>
-                            </div></div>
-                    </div>
-                </div>
-                
-                
-                
             </div>
-        </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box"
+                            style="background-image: url(assets/images/slider/Infra\ \(1\).JPG);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Transforming Lives.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box"
+                            style="background-image: url(assets/images/slider/Infra\ \(2\).JPG);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">asdf adkjf  </div>
+                                <div class="banner_text2">adjfk kajdf</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div></div>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-3 bannerForm">
+                    <div class="row">
+                        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                        <div class="elfsight-app-182b660c-dad7-49ad-bb22-370bbbcaa621" data-elfsight-app-lazy></div>
+                      
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section><br><br>
+            
 <!--  -->
 
     <div class="width100 why_section pt-5 pb-5">
