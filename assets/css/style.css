@@ -160,7 +160,7 @@ a:hover {
 
     /* background-image: url(../images/university_img.png); */
 
-    background-image: linear-gradient(220deg, #ff9100 0%, #9f008f 90%);
+    background-image: linear-gradient(220deg, #ffc107 0%, #ffc107 90%);
 
     background-repeat: no-repeat;
 
@@ -2550,7 +2550,7 @@ a:hover {
 
     z-index: 501;
 
-    background-color: #45086c;
+    background-color: #790149;
 
     padding: 0;
 
@@ -2598,7 +2598,7 @@ a:hover {
 
     width: 100%;
 
-    border-bottom: 1px dashed #795091;
+    border-bottom: 1px dashed #915083;
 
 }
 
@@ -2700,7 +2700,7 @@ a:hover {
 
     font-weight: bold;
 
-    color: #9f2176;
+    color: #790149;
 
     line-height: normal;
 
@@ -2908,7 +2908,7 @@ a:hover {
 
     float: right;
 
-    background-color: #e87f37;
+    background-color: #ffc107;
 
     width: auto;
 
@@ -5388,7 +5388,7 @@ select option {
 
     width: 100%;
 
-    background-color: #830076;
+    background-color: #790149;
 
     margin: 0 0 10px 0;
 
@@ -5400,7 +5400,7 @@ select option {
 
     font-size: 14px;
 
-    border-left: 4px solid #e87f37;
+    border-left: 4px solid #ffc107;
 
     border-right: 0;
 
@@ -5420,9 +5420,9 @@ select option {
 
 .left_menu_box li a:hover {
 
-    background-color: #fff;
+    background-color: #ffffff;
 
-    color: #820075;
+    color: #790149;
 
     margin: 0 0 10px 40px;
 
