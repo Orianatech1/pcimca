@@ -314,7 +314,7 @@ a:hover {
 
     height: auto;
 
-    background-color: #512a74;
+    background-color: #790149;
 
     color: #fff;
 
@@ -346,7 +346,7 @@ a:hover {
 
     text-decoration: none;
 
-    color: #512a74;
+    color: #790149;
 
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 
@@ -394,7 +394,7 @@ a:hover {
 
 .owl-carousel_homebanner .owl-dots .active span {
 
-    box-shadow: 0px 0px 0px 10px #8c5ca0;
+    box-shadow: 0px 0px 0px 10px #790149;
 
 }
 
@@ -864,7 +864,7 @@ a:hover {
 
     height: auto;
 
-    background-color: #512a74;
+    background-color: #790149;
 
     color: #fff;
 
@@ -896,7 +896,7 @@ a:hover {
 
     text-decoration: none;
 
-    color: #512a74;
+    color: #790149;
 
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 
@@ -1130,7 +1130,7 @@ a:hover {
 
     z-index: 501;
 
-    background-color: #45086c;
+    background-color: #790149;
 
     padding: 0;
 
@@ -1274,7 +1274,7 @@ a:hover {
 
 .owl-carousel_homebanner .owl-dots .active span {
 
-    box-shadow: 0px 0px 0px 10px #8c5ca0;
+    box-shadow: 0px 0px 0px 10px #790149;
 
 }
 
@@ -2222,7 +2222,7 @@ a:hover {
 
     top: 0;
 
-    background-color: #582970;
+    background-color: #790149;
 
     margin: 28px 0 0 0;
 
@@ -2264,7 +2264,7 @@ a:hover {
 
     border-right: 0;
 
-    border-bottom: 1px dotted #9164b5;
+    border-bottom: 1px dotted #b56499;
 
     padding: 7px 20px;
 
@@ -2280,7 +2280,7 @@ a:hover {
 
     color: #fff;
 
-    background-color: #63317d;
+    background-color: #ffc107;
 
 }
 
@@ -3834,7 +3834,7 @@ a:hover {
 
     font-size: 11px;
 
-    background-color: #dd7228;
+    background-color: #ffc107;
 
     color: #fff;
 
@@ -4968,7 +4968,7 @@ select option {
 
 .owl-dots span {
 
-    background-color: #dd7228;
+    background-color: #ffc107;
 
     width: 7px;
 
