@@ -34,7 +34,7 @@
 
 .header_background {
 
-    background-image: linear-gradient(180deg, #3c1164 0%, #790149 50%);
+    background-image: linear-gradient(180deg, #790149 0%, #790149 50%);
 
 }
 
@@ -160,7 +160,7 @@ a:hover {
 
     /* background-image: url(../images/university_img.png); */
 
-    background-image: linear-gradient(220deg, #ff9100 0%, #9f008f 90%);
+    background-image: linear-gradient(220deg, #ffc107 0%, #ffc107 90%);
 
     background-repeat: no-repeat;
 
