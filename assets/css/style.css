@@ -1178,7 +1178,7 @@ a:hover {
 
     width: 100%;
 
-    border-bottom: 1px dashed #795091;
+    border-bottom: 1px dashed #790149;
 
 }
 
@@ -5016,7 +5016,7 @@ select option {
 
 .footer_section_box {
 
-    background-image: linear-gradient(200deg, #3c1164 0%, #790149 100%);
+    background-image: linear-gradient(200deg, #790149 0%, #790149 100%);
 
     padding: 70px 0;
 
@@ -5388,7 +5388,7 @@ select option {
 
     width: 100%;
 
-    background-color: #830076;
+    background-color: #790149;
 
     margin: 0 0 10px 0;
 
@@ -5400,7 +5400,7 @@ select option {
 
     font-size: 14px;
 
-    border-left: 4px solid #e87f37;
+    border-left: 4px solid #ffc107;
 
     border-right: 0;
 
@@ -5422,7 +5422,7 @@ select option {
 
     background-color: #fff;
 
-    color: #820075;
+    color: #790149;
 
     margin: 0 0 10px 40px;
 
