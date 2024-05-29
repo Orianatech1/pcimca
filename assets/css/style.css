@@ -11143,6 +11143,19 @@ body{
 
                                                 /* merit-list end*/
 
+                                                .center {
+                                                    display: block;
+                                                    margin-left: auto;
+                                                    margin-right: auto;
+                                                    width: 50%;
+                                                  }
 
+                                                  .img-fluid {
+                                                    border-radius: 10px;
+                                                    display: block;
+                                                    margin-left: auto;
+                                                    margin-right: auto;
+                                                    width: 50%;
+                                                  }
 
 
