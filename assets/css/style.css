@@ -11142,7 +11142,7 @@ body{
 
 
                                                 /* merit-list end*/
-                        /*ACADEMIC*/
+                                             /*ACADEMIC*/
                                                 .center {
                                                     display: block;
                                                     margin-left: auto;
@@ -11157,12 +11157,22 @@ body{
 
                                                  *{
                                                     box-sizing: border-box;
+                                                    
                                                  }
 
                                                  .allColumns {
                                                     float: left;
                                                     width: 33.33%;
                                                     padding: 10px;
+                                                 }
+                                                 .allColumns img{
+                                                    transition: 1s;
+                                                    padding: 15px;
+                                                    width: 200px;
+                                                 }
+                                                 .allColumns img:hover{
+                                                    filter: grayscale(50%);
+                                                    transform: scale(1.1);
                                                  }
 
                                                  .row::after{
@@ -11177,6 +11187,9 @@ body{
 
                                                     }
                                                  }
+
+
+                                                
 
 
 
