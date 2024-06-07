@@ -1774,9 +1774,13 @@ a:hover {
 
 .Logo img {
 
-    max-width: 100%;
+   max-width: 200%;
 
-    min-width: 230px;
+    min-width: 190px;
+   
+    /*max-width: 100%;
+
+    min-width: 230px;*/
 
 }
 
@@ -1947,8 +1951,27 @@ a:hover {
     height: auto;
 
     margin: 2px 0 0 10px;
+    /*float: right;
+    margin: 20px auto;
+  width: auto;
+  max-width: 150px;
+  height: auto; 
+  text-align: center; */
 
 }
+
+/*.pcimcaname {
+
+    float: left;
+
+    width: auto;
+
+    height: auto;
+
+    margin: 0 0 0 0;
+
+
+}*/
 
 
 
@@ -2292,7 +2315,7 @@ a:hover {
 
     position: fixed;
 
-    right: 0;
+    right: 100px;
 
     bottom: 0;
 
@@ -5030,7 +5053,7 @@ select option {
 
     font-family: Metropolis-SemiBold;
 
-    color: #E87F37;
+    color: #ffc107;
 
     font-size: 21px;
 
