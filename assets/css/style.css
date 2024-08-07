@@ -1774,9 +1774,13 @@ a:hover {
 
 .Logo img {
 
-    max-width: 100%;
+   max-width: 200%;
 
-    min-width: 230px;
+    min-width: 190px;
+   
+    /*max-width: 100%;
+
+    min-width: 230px;*/
 
 }
 
@@ -1947,8 +1951,27 @@ a:hover {
     height: auto;
 
     margin: 2px 0 0 10px;
+    /*float: right;
+    margin: 20px auto;
+  width: auto;
+  max-width: 150px;
+  height: auto; 
+  text-align: center; */
 
 }
+
+/*.pcimcaname {
+
+    float: left;
+
+    width: auto;
+
+    height: auto;
+
+    margin: 0 0 0 0;
+
+
+}*/
 
 
 
@@ -2292,7 +2315,7 @@ a:hover {
 
     position: fixed;
 
-    right: 0;
+    right: 100px;
 
     bottom: 0;
 
@@ -2322,13 +2345,27 @@ a:hover {
 
 }
 
-
+/*whatsapp log*/
 
 .footer_enquire_apply_box img {
 
     max-width: 140px;
 
 }
+
+.footer_enquire_apply_box a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    border: 2px solid #25D366; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s;
+}
+
+.footer_enquire_apply_box a img:hover {
+    transform: scale(1.1); 
+}
+
 
 
 
@@ -5018,7 +5055,7 @@ select option {
 
     background-image: linear-gradient(200deg, #790149 0%, #790149 100%);
 
-    padding: 70px 0;
+    padding: 2px 0;
 
     margin: 0 0 0;
 
@@ -5030,7 +5067,7 @@ select option {
 
     font-family: Metropolis-SemiBold;
 
-    color: #E87F37;
+    color: #ffc107;
 
     font-size: 21px;
 
@@ -11142,7 +11179,7 @@ body{
 
 
                                                 /* merit-list end*/
-                        /*ACADEMIC*/
+                                             /*ACADEMIC*/
                                                 .center {
                                                     display: block;
                                                     margin-left: auto;
@@ -11157,12 +11194,22 @@ body{
 
                                                  *{
                                                     box-sizing: border-box;
+                                                    
                                                  }
 
                                                  .allColumns {
                                                     float: left;
                                                     width: 33.33%;
                                                     padding: 10px;
+                                                 }
+                                                 .allColumns img{
+                                                    transition: 1s;
+                                                    padding: 15px;
+                                                    width: 200px;
+                                                 }
+                                                 .allColumns img:hover{
+                                                    filter: grayscale(50%);
+                                                    transform: scale(1.1);
                                                  }
 
                                                  .row::after{
@@ -11177,6 +11224,9 @@ body{
 
                                                     }
                                                  }
+
+
+                                                
 
 
 
